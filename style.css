@@ -1,0 +1,158 @@
+body header{
+    box-shadow: 2px 3px 6px 0px !important;
+}
+
+header .navbar-logo h1{
+    font-size: 60px !important;
+    font-weight: 900 !important;
+}
+header .navbar-logo h1 span{
+    font-size: 4opx;
+    font-weight: 400;
+    color: dodgerblue;
+}
+ 
+header nav ul li:hover{
+    text-decoration: overline !important;
+}    
+
+    /* for hero */
+/*---------------------------------------
+  testimonial-cards              
+-----------------------------------------*/
+
+address{
+    background-attachment: fixed;
+    background-image: linear-gradient(to right, rgba(100,0,240,1), rgba(0,220,0,6), rgba(150,150,150,9)) !important;
+}
+address section .row{
+    background-color: rgba(255, 255, 255, .3) !important;
+}
+
+/* Call To Action Section
+--------------------------------*/
+#call-to-action {
+    background: #8f93a524;
+    background-size: cover;
+    padding: 28px 0;
+  }
+  
+  #call-to-action .cta-title {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  #call-to-action .cta-text {
+    color: #fff;
+  }
+  
+  @media (min-width: 769px) {
+    #call-to-action .cta-btn-container {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+    }
+  }
+  
+  #call-to-action .cta-btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 26px;
+    border-radius: 3px;
+    transition: 0.5s;
+    margin: 10px;
+    border: 3px solid #fff;
+    color: #fff;
+  }
+  
+  #call-to-action .cta-btn:hover {
+    background: #50d8af;
+    border: 3px solid #50d8af;
+  }
+  /*---------------------------------------
+    Service section              
+  -----------------------------------------*/
+  
+  .service-thumb {
+    background: #673ab7e0;
+    border-radius: 5px;
+    padding: 42px 22px;
+    cursor: crosshair;
+    position: relative;
+    top: 0;
+    -webkit-transition: all ease-in-out 0.4s;
+    transition: all ease-in-out 0.4s;
+    border: 1px #009688 solid;
+  }
+  
+  .service-thumb:hover {
+    background: #2b2b2b;
+    top: -5px;
+  }
+  
+  .service-thumb:hover .fa,
+  .service-thumb:hover h4 {
+    color: #ffffff;
+  }
+  
+  .service-thumb h4 {
+    padding-bottom: 5px;
+  }
+  
+  .service-thumb .fa {
+    color: #7682cc;
+    font-size: 62px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 22px;
+  }
+  
+  .bg-grey .fa {
+    color: #ffffff;
+  }
+
+
+  /* table */
+.project-tab {
+    padding: 10%;
+    margin-top: -8%;
+}
+.project-tab #tabs{
+    background: #007b5e;
+    color: #eee;
+}
+.project-tab #tabs h6.section-title{
+    color: #eee;
+}
+.project-tab #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #0062cc;
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 3px solid !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+.project-tab .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    color: #0062cc;
+    font-size: 16px;
+    font-weight: 600;
+}
+.project-tab .nav-link:hover {
+    border: none;
+}
+.project-tab thead{
+    background: #f3f3f3;
+    color: #333;
+}
+.project-tab a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
